@@ -95,9 +95,12 @@ border-collapse: separate;
   }
   /* started p tag pink flower tree*/
  
-  .pink-flower-tree,
-.pink-flower-tree * {
-  box-sizing: border-box;
+  .pink-flower-tree
+ {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  
 }
 .pink-flower-tree {
   color: #272727;
