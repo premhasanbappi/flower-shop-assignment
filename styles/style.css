@@ -82,7 +82,7 @@ line-height: 30px;
     padding: 10px;
     justify-content: space-between;
     margin-right: 10px;
-    align-items: center;
+    align-content: space-around;
   }
   .images{
     border-radius: 300px 300px 0px 0px;
@@ -118,9 +118,11 @@ border-collapse: separate;
 .all-images {
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   display: flex;
+  gap: 24px;
 }
 
 .all-images img {
+  gap:24px;
   flex: 1;
   width: 342px;
 height: 396px;
