@@ -28,10 +28,9 @@ align-items: flex-start;
 gap: 10px;
 color: #FFF;
 font-family: Lato;
-font-size: 20px;
-font-style: normal;
+font-size: 20px;;
 font-weight: 700;
-line-height: normal;
+
 }
 .banner-discrption{
     display: flex;
@@ -41,7 +40,6 @@ flex-shrink: 0;
 color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
 font-size: 18px;
-font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
@@ -52,3 +50,82 @@ flex-shrink: 0;
   
 }
 /* main started */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;                   ; 
+  }
+  .text{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+  }
+  .paragraph{
+    display: flex;
+width: 594px;
+flex-direction: column;
+flex-shrink: 0;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+  }
+  /* starting 3 Rectangle pink flower style */
+  .image-container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+  }
+  .images{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 310px;
+height: 428px;
+flex-shrink: 0;
+border-collapse: separate;
+  border-spacing: 15px 50px;
+  }
+  /* started p tag for change something */
+ 
+  .pink-flower-tree,
+.pink-flower-tree * {
+  box-sizing: border-box;
+}
+.pink-flower-tree {
+  color: #272727;
+  text-align: center;
+  
+  font: 700 24px/35px "Lato", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+
+
+  /* started a box with icons  */
+  .border-box {
+  box-sizing: border-box;
+  align-items: center;
+  }
+.box {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+ .good-image {
+  height: 88px;
+  width: 88px;
+}
+#off{
+  color: #E55473;
+}
+
