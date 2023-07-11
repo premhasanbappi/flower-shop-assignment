@@ -93,7 +93,7 @@ flex-shrink: 0;
 border-collapse: separate;
   border-spacing: 15px 50px;
   }
-  /* started p tag for change something */
+  /* started p tag pink flower tree*/
  
   .pink-flower-tree,
 .pink-flower-tree * {
@@ -110,28 +110,7 @@ border-collapse: separate;
 
 
   /* started a box with icons  */
-  .border-box {
-  box-sizing: border-box;
-  align-items: center;
-  }
-.box {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
- .good-image {
-  height: 88px;
-  width: 88px;
-}
-#off{
-  color: #E55473;
-}
-.color-white{
-  color:aliceblue
-}
-
+  
 /* started 4 images */
 .all-images {
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
